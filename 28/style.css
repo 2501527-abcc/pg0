@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background: linear-gradient(135deg, #fefefe 0%, #e0f7fa 30%, #d1c4e9 60%, #fff8e1 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+#home-nav{
+    background-color: #4b5c6b;
+    padding: 16px;
+}
+#home-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+#home-nav li{
+    padding: 16px;
+}
+#home-nav a{
+    display: inline-block;
+    position: relative;
+    margin: 40px 0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+#home-nav a:hover{
+    color: #f0f0f0;
+}
+#home-nav a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 4px;
+    background: #f0f0f0;
+    transition: 0.3s;
+}
+#home-nav a:hover::before{
+    width: 100%;
+}
+.block{
+    width: 80%;
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    height: auto;
+}
+iframe{
+    width: 80%;
+}
+#card-carousel img {
+  width: 80%;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+#card-anime img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+.caption {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+  color: #555;
+}
