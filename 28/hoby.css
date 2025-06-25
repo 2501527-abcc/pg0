@@ -80,3 +80,14 @@ iframe{
   margin-top: 0.5em;
   color: #555;
 }
+@media (min-width: 769px) {
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  @media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
